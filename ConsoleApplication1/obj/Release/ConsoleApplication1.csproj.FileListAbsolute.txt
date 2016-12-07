@@ -1,0 +1,5 @@
+c:\users\vidal\documents\visual studio 2012\Projects\ConsoleApplication1\ConsoleApplication1\bin\Release\ConsoleApplication1.exe.config
+c:\users\vidal\documents\visual studio 2012\Projects\ConsoleApplication1\ConsoleApplication1\bin\Release\ConsoleApplication1.exe
+c:\users\vidal\documents\visual studio 2012\Projects\ConsoleApplication1\ConsoleApplication1\bin\Release\ConsoleApplication1.pdb
+c:\users\vidal\documents\visual studio 2012\Projects\ConsoleApplication1\ConsoleApplication1\obj\Release\ConsoleApplication1.exe
+c:\users\vidal\documents\visual studio 2012\Projects\ConsoleApplication1\ConsoleApplication1\obj\Release\ConsoleApplication1.pdb
