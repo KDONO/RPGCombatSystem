@@ -13,9 +13,42 @@ namespace ConsoleApplication1
         //hp, patk, pdef, spd, eva. 
         int[] stats = {0,0,0,0,0};
 
+        int currentHealth = 0;
+
+        int clockticks = 0; 
+
+        bool willAct = false;
+
+        //This will tick the unit forward.
+        public void tick()
+        {
+            clockticks += stats[3];
+        }
+
+        //This clears the ticks
+        public void clearTick()
+        {
+            clockticks = 0;
+        }
+
+        public int getTick()
+        {
+            return clockticks;
+        }
+
         public String getName()
         {
             return name;
+        }
+
+        public void setWillAct(bool input)
+        {
+            willAct = input;
+        }
+
+       public bool getWillAct()
+        {
+            return willAct;
         }
 
         public void setStats(int[] newStats)
@@ -25,7 +58,7 @@ namespace ConsoleApplication1
 
         public void setHP(int input)
         {
-            stats[0] = input;
+            currentHealth = input;
         }
 
         public void setName(String inputName)
@@ -38,9 +71,14 @@ namespace ConsoleApplication1
             return stats;
         }
 
-        public int getHP()
+        public int getMaxHP()
         {
             return stats[0];
+        }
+
+        public int getHP()
+        {
+            return currentHealth;
         }
 
         public int getPATK()

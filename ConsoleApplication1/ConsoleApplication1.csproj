@@ -71,7 +71,7 @@
   <ItemGroup>
     <Compile Include="CombatController.cs" />
     <Compile Include="Unit.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Core.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
